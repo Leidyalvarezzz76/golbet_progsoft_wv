@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Golbet.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+470633a8e3eeb2ec691a4649c77743cc5420e909")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fdee957d847f0558844a4bb7e0f848b40c283a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Golbet.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Golbet.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
