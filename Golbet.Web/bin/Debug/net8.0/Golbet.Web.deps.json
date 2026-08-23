@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Golbet.Web/1.0.0": {
+        "dependencies": {
+          "Golbet.Services": "1.0.0"
+        },
+        "runtime": {
+          "Golbet.Web.dll": {}
+        }
+      },
+      "Golbet.Entities/1.0.0": {
+        "runtime": {
+          "Golbet.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Golbet.Repositories/1.0.0": {
+        "dependencies": {
+          "Golbet.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Golbet.Repositories.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Golbet.Services/1.0.0": {
+        "dependencies": {
+          "Golbet.Entities": "1.0.0",
+          "Golbet.Repositories": "1.0.0"
+        },
+        "runtime": {
+          "Golbet.Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Golbet.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Golbet.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Golbet.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Golbet.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

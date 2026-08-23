@@ -1,0 +1,12 @@
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\bin\Debug\net8.0\Golbet.Entities.deps.json
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\bin\Debug\net8.0\Golbet.Entities.dll
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\bin\Debug\net8.0\Golbet.Entities.pdb
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.AssemblyInfoInputs.cache
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.AssemblyInfo.cs
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.csproj.CoreCompileInputs.cache
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.sourcelink.json
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.dll
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\refint\Golbet.Entities.dll
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.pdb
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\ref\Golbet.Entities.dll
