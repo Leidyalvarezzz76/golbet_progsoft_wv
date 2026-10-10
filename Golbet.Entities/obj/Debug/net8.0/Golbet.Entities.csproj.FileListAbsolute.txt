@@ -10,3 +10,4 @@ C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.
 C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\refint\Golbet.Entities.dll
 C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.pdb
 C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\ref\Golbet.Entities.dll
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.csproj.AssemblyReference.cache
