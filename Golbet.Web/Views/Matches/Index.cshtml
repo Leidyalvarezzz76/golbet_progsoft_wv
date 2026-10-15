@@ -14,11 +14,10 @@
     var currentSearch = (string?)ViewBag.CurrentSearch;
 }
 
-<h2 class="mb-4">⚽ Cartelera de partidos</h2>
-@if (User.IsInRole("Admin"))
-{
-    <a asp-action="Create" class="btn btn-success">+ Nuevo partido</a>
-}
+
+ <h2 class="mb-4">⚽ Cartelera de partidos</h2>
+
+
 
 @* SEARCH WORKSHOP: every filter button keeps the active search via asp-route-search *@
 <div class="d-flex gap-2 flex-wrap mb-4">
@@ -55,11 +54,17 @@
         {
             <input type="hidden" name="status" value="@current" />
         }
+
         @* SEARCH WORKSHOP: the input shows the text previously searched *@
         <input type="text" name="search" value="@currentSearch"
                class="form-control" placeholder="Buscar equipo..." />
         <button type="submit" class="btn btn-success">Buscar</button>
     </form>
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Create" class="btn btn-success">+ Nuevo partido</a>
+    }
+
 
 
 </div>
