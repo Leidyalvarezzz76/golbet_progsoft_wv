@@ -20,9 +20,10 @@ public class MatchService : IMatchService
         _mapper = mapper;
     }
 
-    public async Task<IEnumerable<MatchDto>> GetBoardAsync(MatchStatus? status = null)
+    // SEARCH WORKSHOP: The service only propagates 'search' to the repository
+    public async Task<IEnumerable<MatchDto>> GetBoardAsync(MatchStatus? status = null, string? search = null)
     {
-        var matches = await _matchRepository.GetAllWithTeamsAsync(status);
+        var matches = await _matchRepository.GetAllWithTeamsAsync(status, search);
         return _mapper.Map<IEnumerable<MatchDto>>(matches);
     }
 
