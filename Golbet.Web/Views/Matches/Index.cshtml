@@ -5,11 +5,19 @@
 @{
     ViewData["Title"] = "Partidos";
 }
+  
+
 
 @{
     var current = (MatchStatus?)ViewBag.CurrentStatus;
     @* SEARCH WORKSHOP: current search text, sent by the controller *@
     var currentSearch = (string?)ViewBag.CurrentSearch;
+}
+
+<h2 class="mb-4">⚽ Cartelera de partidos</h2>
+@if (User.IsInRole("Admin"))
+{
+    <a asp-action="Create" class="btn btn-success">+ Nuevo partido</a>
 }
 
 @* SEARCH WORKSHOP: every filter button keeps the active search via asp-route-search *@
@@ -53,11 +61,6 @@
         <button type="submit" class="btn btn-success">Buscar</button>
     </form>
 
-    <h2>⚽ Cartelera de partidos</h2>
-    @if (User.IsInRole("Admin"))
-    {
-        <a asp-action="Create" class="btn btn-success">+ Nuevo partido</a>
-    }
 
 </div>
 
@@ -66,12 +69,13 @@
 {
     <div class="text-center py-5">
         <h1 class="display-1">🔍</h1>
-        <h3>No hay partidos para “@currentSearch”</h3>
+        <h3 class=" mb-4 ">No hay partidos para “@currentSearch"</h3>
         <a asp-controller="Matches" asp-action="Index" class="btn btn-success">
             Volver a la cartelera de partidos
         </a>
     </div>
 }
+
 else
 {
     <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
