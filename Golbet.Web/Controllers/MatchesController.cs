@@ -21,11 +21,14 @@ public class MatchesController : Controller
     }
     // GET /Matches            -> all matches
     // GET /Matches?status=Scheduled -> filtered board
-    
-    public async Task<IActionResult> Index(MatchStatus? status)
+    // SEARCH WORKSHOP: 'search' arrives by model binding from the query string
+
+    public async Task<IActionResult> Index(MatchStatus? status, string? search)
     {
         ViewBag.CurrentStatus = status;
-        var board = await _matchService.GetBoardAsync(status);
+        // SEARCH WORKSHOP: keeps the search text so the view can show it again
+        ViewBag.CurrentSearch = search;      
+        var board = await _matchService.GetBoardAsync(status, search);
         return View(board);
     }
 
