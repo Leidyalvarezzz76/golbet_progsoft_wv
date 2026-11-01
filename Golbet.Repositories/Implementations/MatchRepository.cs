@@ -11,7 +11,7 @@ public class MatchRepository : GenericRepository<Match>, IMatchRepository
     public MatchRepository(AppDbContext context) : base(context) { }
 
      // SEARCH WORKSHOP: New optional 'search' parameter, same style as 'status'
-        public async Task<IEnumerable<Match>> GetAllWithTeamsAsync(MatchStatus? status = null, string? search = null)
+    public async Task<IEnumerable<Match>> GetAllWithTeamsAsync(MatchStatus? status = null, string? search = null)
     {
         var query = _dbSet
             .Include(m => m.HomeTeam)

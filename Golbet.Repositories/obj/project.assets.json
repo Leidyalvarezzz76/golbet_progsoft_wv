@@ -4204,11 +4204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\reposITM\\golbet_progsoft_wv\\GolBet.Repositories\\Golbet.Repositories.csproj",
+      "projectUniqueName": "C:\\reposITM\\golbet_progsoft_wv\\Golbet.Repositories\\Golbet.Repositories.csproj",
       "projectName": "Golbet.Repositories",
-      "projectPath": "C:\\reposITM\\golbet_progsoft_wv\\GolBet.Repositories\\Golbet.Repositories.csproj",
+      "projectPath": "C:\\reposITM\\golbet_progsoft_wv\\Golbet.Repositories\\Golbet.Repositories.csproj",
       "packagesPath": "C:\\Users\\Oscar Alvarez\\.nuget\\packages\\",
-      "outputPath": "C:\\reposITM\\golbet_progsoft_wv\\GolBet.Repositories\\obj\\",
+      "outputPath": "C:\\reposITM\\golbet_progsoft_wv\\Golbet.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4285,7 +4285,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

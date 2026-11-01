@@ -11,3 +11,4 @@ C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\refint\Golbet.En
 C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.pdb
 C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\ref\Golbet.Entities.dll
 C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.Entities.csproj.AssemblyReference.cache
+C:\reposITM\golbet_progsoft_wv\Golbet.Entities\obj\Debug\net8.0\Golbet.E.13C7FECC.Up2Date
